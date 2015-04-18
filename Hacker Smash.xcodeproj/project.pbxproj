@@ -24,13 +24,6 @@
 			remoteGlobalIDString = 68A32D7114102E1C006B237C;
 			remoteInfo = CordovaLib;
 		};
-		191784111AE2EE47004E2BF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 191783E91AE2EE46004E2BF2 /* Whack-A-Mole.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
-			remoteInfo = "Whack-A-Mole";
-		};
 		19C0C7811AE2FB8800ED076B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 191782B31AE2EDDA004E2BF2 /* Project object */;
@@ -304,7 +297,7 @@
 		191783E61AE2EE46004E2BF2 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
 		191783E71AE2EE46004E2BF2 /* Whack-A-Mole-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Whack-A-Mole-Info.plist"; sourceTree = "<group>"; };
 		191783E81AE2EE46004E2BF2 /* Whack-A-Mole-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Whack-A-Mole-Prefix.pch"; sourceTree = "<group>"; };
-		191783E91AE2EE46004E2BF2 /* Whack-A-Mole.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Whack-A-Mole.xcodeproj"; sourceTree = "<group>"; };
+		191783E91AE2EE46004E2BF2 /* Hacker-Smash.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Hacker-Smash.xcodeproj"; sourceTree = "<group>"; };
 		191783EE1AE2EE47004E2BF2 /* cordova.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = cordova.js; sourceTree = "<group>"; };
 		191783EF1AE2EE47004E2BF2 /* cordova_plugins.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = cordova_plugins.js; sourceTree = "<group>"; };
 		191783F11AE2EE47004E2BF2 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
@@ -397,8 +390,8 @@
 				191783061AE2EE46004E2BF2 /* cordova */,
 				191783371AE2EE46004E2BF2 /* CordovaLib */,
 				191783BD1AE2EE46004E2BF2 /* platform_www */,
-				191783BF1AE2EE46004E2BF2 /* Whack-A-Mole */,
-				191783E91AE2EE46004E2BF2 /* Whack-A-Mole.xcodeproj */,
+				191783BF1AE2EE46004E2BF2 /* Hacker-Smash */,
+				191783E91AE2EE46004E2BF2 /* Hacker-Smash.xcodeproj */,
 				191783ED1AE2EE47004E2BF2 /* www */,
 			);
 			path = ios;
@@ -872,7 +865,7 @@
 			path = platform_www;
 			sourceTree = "<group>";
 		};
-		191783BF1AE2EE46004E2BF2 /* Whack-A-Mole */ = {
+		191783BF1AE2EE46004E2BF2 /* Hacker-Smash */ = {
 			isa = PBXGroup;
 			children = (
 				191783C01AE2EE46004E2BF2 /* .gitignore */,
@@ -884,6 +877,7 @@
 				191783E71AE2EE46004E2BF2 /* Whack-A-Mole-Info.plist */,
 				191783E81AE2EE46004E2BF2 /* Whack-A-Mole-Prefix.pch */,
 			);
+			name = "Hacker-Smash";
 			path = "Whack-A-Mole";
 			sourceTree = "<group>";
 		};
@@ -953,14 +947,6 @@
 				191783E61AE2EE46004E2BF2 /* Default~iphone.png */,
 			);
 			path = splash;
-			sourceTree = "<group>";
-		};
-		191783EA1AE2EE46004E2BF2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				191784121AE2EE47004E2BF2 /* Whack-A-Mole.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		191783ED1AE2EE47004E2BF2 /* www */ = {
@@ -1190,10 +1176,6 @@
 					ProductGroup = 191783B91AE2EE46004E2BF2 /* Products */;
 					ProjectRef = 191783B81AE2EE46004E2BF2 /* CordovaLib.xcodeproj */;
 				},
-				{
-					ProductGroup = 191783EA1AE2EE46004E2BF2 /* Products */;
-					ProjectRef = 191783E91AE2EE46004E2BF2 /* Whack-A-Mole.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -1209,13 +1191,6 @@
 			fileType = archive.ar;
 			path = libCordova.a;
 			remoteRef = 1917840E1AE2EE47004E2BF2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		191784121AE2EE47004E2BF2 /* Whack-A-Mole.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Whack-A-Mole.app";
-			remoteRef = 191784111AE2EE47004E2BF2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
