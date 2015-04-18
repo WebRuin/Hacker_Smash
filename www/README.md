@@ -1,5 +1,5 @@
-# Hacker Smash
-## Whack-A-Mole clone for iOS
+* Hacker Smash
+** Whack-A-Mole clone for iOS
 
 Codova build
 
