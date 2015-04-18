@@ -1,0 +1,97 @@
+*, *:before, *:after
+{
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body
+{
+    font-family: sans-serif;
+    color: #fff;
+    border-top: 20px solid #fff;
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+  text-align: center;
+}
+
+#defaultCountdown
+{
+    margin-top: -.5em;
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+#defaultScore
+{
+    margin-top: -.5em;
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+#topScore
+{
+    width: 60%;
+    float: left;
+    text-align: left;
+}
+
+#reset{
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding: 3px;
+    background: #f00;
+}
+
+.stats{
+    clear: both;
+    width: 60vw;
+    height: 2rem;
+    padding: 2rem;
+    margin: 0 auto;
+    line-height: 2em;
+}
+
+.container{
+  width: 60vw;
+  height: 60vw;
+  margin: 0 auto;
+}
+
+.box{
+  float: left;
+  width: 33.3333%;
+  height: 33.3333%;
+  position: relative;
+}
+
+.glow:before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 90%;
+  margin-top: -45%;
+  margin-left: -45%;
+  border-radius: 9999em;
+  background: #ccc;
+  box-shadow:0 0 15px #0f0;
+  animation: Glow 2s infinite;
+}
+
+@keyframes Glow {
+  0%   { box-shadow:0 0 2px #0f0; }
+  50% { box-shadow:0 0 30px #0f0; }
+  100% { box-shadow:0 0 2px #0f0; }
+}
